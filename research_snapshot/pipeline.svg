@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="410" viewBox="0 0 1200 410" role="img" aria-labelledby="title desc">
+<title id="title">Surgical video intelligence research workflow</title>
+<desc id="desc">One public phantom video feeds an annotation-seeded tracking path and a separate experimental video search path.</desc>
+<rect width="1200" height="410" rx="20" fill="#0b1720"/>
+<text x="55" y="62" font-family="Arial,sans-serif" font-size="20" font-weight="bold" letter-spacing="3" fill="#74d8ce">SURGICAL VIDEO INTELLIGENCE</text>
+<text x="55" y="104" font-family="Arial,sans-serif" font-size="28" fill="#eff8f7">One public phantom video, two research paths</text>
+<rect x="55" y="158" width="245" height="130" rx="14" fill="#142c37" stroke="#42636a"/>
+<text x="78" y="199" font-family="Arial,sans-serif" font-size="21" font-weight="bold" fill="#f2f8f6">Public video</text>
+<text x="78" y="228" font-family="Arial,sans-serif" font-size="16" fill="#b3cdcb">Bench-top phantom</text>
+<text x="78" y="252" font-family="Arial,sans-serif" font-size="16" fill="#b3cdcb">No patient footage</text>
+<path d="M300 223 H365 M365 223 V154 H420 M365 223 V304 H420" fill="none" stroke="#73cfca" stroke-width="3"/>
+<rect x="420" y="117" width="335" height="90" rx="14" fill="#142c37" stroke="#42636a"/>
+<text x="443" y="155" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#f2f8f6">Annotation-seeded tracking</text>
+<text x="443" y="183" font-family="Arial,sans-serif" font-size="16" fill="#b3cdcb">Optical flow between labelled anchors</text>
+<rect x="420" y="260" width="335" height="90" rx="14" fill="#142c37" stroke="#42636a"/>
+<text x="443" y="298" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#f2f8f6">Video-search pilot</text>
+<text x="443" y="326" font-family="Arial,sans-serif" font-size="16" fill="#b3cdcb">Embeddings rank short video windows</text>
+<path d="M755 162 H813 M755 305 H813" stroke="#73cfca" stroke-width="3"/>
+<rect x="813" y="117" width="335" height="90" rx="14" fill="#173a3d"/>
+<text x="837" y="155" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#b2f5e9">Visual replay and timeline</text>
+<text x="837" y="183" font-family="Arial,sans-serif" font-size="16" fill="#c0dcd8">Labels come from the dataset</text>
+<rect x="813" y="260" width="335" height="90" rx="14" fill="#3a3325"/>
+<text x="837" y="298" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#f5d690">2 of 4 queries hit in top 3</text>
+<text x="837" y="326" font-family="Arial,sans-serif" font-size="16" fill="#e7d3ad">Small pilot; not clinical validation</text>
+</svg>

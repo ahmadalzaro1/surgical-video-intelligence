@@ -1,10 +1,21 @@
 # Surgical video intelligence
 
-Exploratory work on making surgical-video material easier to inspect, using a public endoscopic pituitary surgery **bench-top phantom**. The visual demo shows an annotated replay and instrument-state timeline; it does not contain patient footage.
+Exploratory research for navigating surgical video using annotation-seeded instrument tracking and video search, tested on a public **bench-top phantom**.
+
+[Research snapshot](research_snapshot/) · [Recorded evaluation](research_snapshot/retrieval-evaluation.json) · [Dataset](https://doi.org/10.5522/04/26511049.v1) · [Companion paper](https://doi.org/10.1049/htl2.12101)
+
+![Diagram showing the phantom video, tracking and video search workflow](research_snapshot/pipeline.svg)
+
+**Status:** research snapshot and visual preview. The full video, model weights and source dataset are not included. No patient footage is published.
+
+<details>
+<summary>View the tracking interface</summary>
 
 ![Screenshot of the instrument-tracking research demo](demo-screenshot.png)
 
-## What the demonstration shows
+</details>
+
+## What the research explores
 
 - Published dataset annotations seed instrument contours and labels.
 - Lucas–Kanade optical flow propagates contour points between one-second annotation anchors, with forward/backward consistency checks.
