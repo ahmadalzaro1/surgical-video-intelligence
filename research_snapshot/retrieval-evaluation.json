@@ -1,0 +1,222 @@
+{
+  "queries": 4,
+  "hit_at_1": 0.25,
+  "hit_at_3": 0.5,
+  "relevance_rule": "target visible in at least half annotated seconds of the retrieved window",
+  "scope": "Four prespecified instrument-state queries on one public phantom video; not independent-case validation",
+  "labels_excluded_from_index": true,
+  "results": [
+    {
+      "query": "A blunt dissector in the endoscopic surgical view",
+      "target": "blunt_dissector",
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "results": [
+        {
+          "id": 2,
+          "start": 16,
+          "end": 28,
+          "thumbnail": "search/thumb-002.jpg",
+          "score": 0.7070139646530151,
+          "target_fraction": 1.0,
+          "relevant": true
+        },
+        {
+          "id": 6,
+          "start": 48,
+          "end": 60,
+          "thumbnail": "search/thumb-006.jpg",
+          "score": 0.7061765193939209,
+          "target_fraction": 0.5,
+          "relevant": true
+        },
+        {
+          "id": 10,
+          "start": 80,
+          "end": 92,
+          "thumbnail": "search/thumb-010.jpg",
+          "score": 0.705751359462738,
+          "target_fraction": 1.0,
+          "relevant": true
+        },
+        {
+          "id": 0,
+          "start": 0,
+          "end": 12,
+          "thumbnail": "search/thumb-000.jpg",
+          "score": 0.7028231620788574,
+          "target_fraction": 0.8333333333333334,
+          "relevant": true
+        },
+        {
+          "id": 12,
+          "start": 96,
+          "end": 108,
+          "thumbnail": "search/thumb-012.jpg",
+          "score": 0.7024045586585999,
+          "target_fraction": 1.0,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "Kerrison rongeurs in the endoscopic surgical view",
+      "target": "kerrisons",
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "results": [
+        {
+          "id": 0,
+          "start": 0,
+          "end": 12,
+          "thumbnail": "search/thumb-000.jpg",
+          "score": 0.7082352042198181,
+          "target_fraction": 0.0,
+          "relevant": false
+        },
+        {
+          "id": 39,
+          "start": 312,
+          "end": 324,
+          "thumbnail": "search/thumb-039.jpg",
+          "score": 0.7038657665252686,
+          "target_fraction": 0.0,
+          "relevant": false
+        },
+        {
+          "id": 10,
+          "start": 80,
+          "end": 92,
+          "thumbnail": "search/thumb-010.jpg",
+          "score": 0.7007325291633606,
+          "target_fraction": 0.0,
+          "relevant": false
+        },
+        {
+          "id": 24,
+          "start": 192,
+          "end": 204,
+          "thumbnail": "search/thumb-024.jpg",
+          "score": 0.7000131607055664,
+          "target_fraction": 0.0,
+          "relevant": false
+        },
+        {
+          "id": 12,
+          "start": 96,
+          "end": 108,
+          "thumbnail": "search/thumb-012.jpg",
+          "score": 0.6993882656097412,
+          "target_fraction": 0.0,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query": "Pituitary rongeurs in the endoscopic surgical view",
+      "target": "pituitary_rongeurs",
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "results": [
+        {
+          "id": 0,
+          "start": 0,
+          "end": 12,
+          "thumbnail": "search/thumb-000.jpg",
+          "score": 0.7109870910644531,
+          "target_fraction": 0.0,
+          "relevant": false
+        },
+        {
+          "id": 12,
+          "start": 96,
+          "end": 108,
+          "thumbnail": "search/thumb-012.jpg",
+          "score": 0.7098912596702576,
+          "target_fraction": 0.0,
+          "relevant": false
+        },
+        {
+          "id": 7,
+          "start": 56,
+          "end": 68,
+          "thumbnail": "search/thumb-007.jpg",
+          "score": 0.7081842422485352,
+          "target_fraction": 0.0,
+          "relevant": false
+        },
+        {
+          "id": 24,
+          "start": 192,
+          "end": 204,
+          "thumbnail": "search/thumb-024.jpg",
+          "score": 0.7072210311889648,
+          "target_fraction": 0.6666666666666666,
+          "relevant": true
+        },
+        {
+          "id": 26,
+          "start": 208,
+          "end": 220,
+          "thumbnail": "search/thumb-026.jpg",
+          "score": 0.7051463723182678,
+          "target_fraction": 0.6666666666666666,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "An endoscopic view with no instrument visible",
+      "target": "no_instrument_visible",
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "results": [
+        {
+          "id": 12,
+          "start": 96,
+          "end": 108,
+          "thumbnail": "search/thumb-012.jpg",
+          "score": 0.728092610836029,
+          "target_fraction": 0.0,
+          "relevant": false
+        },
+        {
+          "id": 34,
+          "start": 272,
+          "end": 284,
+          "thumbnail": "search/thumb-034.jpg",
+          "score": 0.7218863368034363,
+          "target_fraction": 0.9166666666666666,
+          "relevant": true
+        },
+        {
+          "id": 7,
+          "start": 56,
+          "end": 68,
+          "thumbnail": "search/thumb-007.jpg",
+          "score": 0.7183952331542969,
+          "target_fraction": 0.5,
+          "relevant": true
+        },
+        {
+          "id": 20,
+          "start": 160,
+          "end": 172,
+          "thumbnail": "search/thumb-020.jpg",
+          "score": 0.7182437181472778,
+          "target_fraction": 0.75,
+          "relevant": true
+        },
+        {
+          "id": 3,
+          "start": 24,
+          "end": 36,
+          "thumbnail": "search/thumb-003.jpg",
+          "score": 0.7178664207458496,
+          "target_fraction": 0.0,
+          "relevant": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+EmbeddingGemma 2 — first executed surgical-video retrieval pilot
+
+Model: google/embeddinggemma-2, official weights hash verified.
+Device: mps; dtype: float32; vector size: 768.
+All 60 vectors finite and unit-normalized.
+Raw source: public UCL pituitary phantom video. 12-second windows, 8-second stride; video only, no annotation labels or overlay text. No patient footage used.
+Index + initial query time: 270.3 seconds (excludes installation/downloads).
+
+Prespecified evaluation: 4 instrument-state queries.
+Hit@1: 1/4. Hit@3: 2/4.
+Blunt dissector: relevant first result.
+No instrument visible: relevant results in top three, first result missed.
+Kerrisons and pituitary rongeurs: no relevant result in top three.
+Relevance means target visible for >=50% of annotated seconds in a window.
+These four queries on one video are a pilot, not generalization evidence.
+
+UI verification: preset query returned three ranked windows; clicking the first jumped to 16 seconds with video readyState 4. Additional typed query returned different intervals (152, 88, 120 seconds), 0.21-second query time. Scores are similarity, not confidence. Tracking remains annotation-seeded optical flow.
+
+Conclusion: local multimodal search operates end-to-end, but specialized instrument retrieval is unreliable on this recording. Do not promote it as accurate surgical recognition. Next useful scope is surgeon-selected review questions and independent-case retrieval evaluation, with a task-matched surgical encoder comparator.
+
+Launch from workspace root:
+  work/embedding-env/bin/python work/serve_embedding_demo.py
+  http://127.0.0.1:8771/
+The workspace environment uses a read-only path to the existing Hermes Python libraries for AV decoding; no Hermes package/configuration was changed. Source scripts are copied into source/ for review. Model weights stay in work/embeddinggemma-2 and are not duplicated in outputs.

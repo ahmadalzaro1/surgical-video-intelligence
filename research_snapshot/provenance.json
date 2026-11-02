@@ -1,0 +1,12 @@
+{
+  "model": "google/embeddinggemma-2",
+  "device": "mps",
+  "dtype": "float32",
+  "clips": 60,
+  "window_seconds": 12,
+  "stride_seconds": 8,
+  "source": "raw public phantom video, no annotation text or overlay",
+  "elapsed_seconds": 270.3198630809784,
+  "dimensions": 768,
+  "weights_sha256": "197a32965d4b1105faf060417baa899e193fb73cd401f42ec9295234d5553d79"
+}

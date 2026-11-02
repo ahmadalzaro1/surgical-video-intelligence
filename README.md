@@ -27,4 +27,4 @@ Instrument identities shown in the tracking display come from dataset labels, no
 
 The visual demo uses the public [Endoscopic Pituitary Surgery on a High-fidelity Bench-top Phantom dataset](https://doi.org/10.5522/04/26511049.v1) by Adrito Das, Danyal Khan, Nicola Newall, John Hanrahan, Danail Stoyanov, Hani Marcus and Sophia Bano, made available under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). The screenshot is an adapted visualization of that dataset and is shared under the same license. See also the dataset's [companion paper](https://doi.org/10.1049/htl2.12101).
 
-This repository currently presents a visual research summary; the full replay, source data and experimental code are not included.
+The [historical research snapshot](research_snapshot/) includes the tracking and retrieval scripts and recorded evaluation. It is a source snapshot, not a packaged standalone release; the full replay, dataset and model weights are not included.
