@@ -19,7 +19,7 @@ Intersection over union (IoU) measures overlap between a predicted mask and the 
 
 Transitions are eligible only when adjacent seconds both have unambiguous polygons for the same instrument class. Case 5 second 432 has multiple polygons and was excluded, as were adjacent comparisons depending on it. Absence, instrument re-entry and false overlays between annotations are not fully evaluated. Instrument identities and initial masks come from the dataset; neither method autonomously detects or classifies instruments in this experiment.
 
-The [summary](results/case5-summary.json) and [per-transition scores](results/case5-anchor-scores.csv) are included. A second case is being processed separately; its outcome is not included here.
+The [summary](results/case5-summary.json) and [per-transition scores](results/case5-anchor-scores.csv) are included. A second case is still being processed; a preliminary prefix is reported below.
 
 ## Research direction
 
@@ -34,3 +34,7 @@ Das, Khan, Newall, Hanrahan, Stoyanov, Marcus and Bano, [Endoscopic Pituitary Su
 [SAM 2](https://github.com/facebookresearch/sam2) is by Meta; the authors state that its model code and checkpoints are Apache 2.0 licensed. Neither the model nor its weights are included in this snapshot.
 
 This is an exploratory research result on simulated anatomy. It is not a clinical tool, patient-outcome analysis, or proof of state-of-the-art performance.
+
+## Case 11: incomplete second recording
+
+A snapshot of intervals 0–321 (322 of 772) contains 190 eligible paired transitions. Mean IoU is 0.702 for SAM 2 and 0.586 for DIS; SAM 2 scores higher on 152, DIS on 37, with one tie. These are preliminary results from a consecutive prefix, not the completed recording. Eligibility and re-anchoring follow the comparison above; results may change when the remaining intervals are processed. [Partial summary](results/case11-partial-summary.json) · [Per-transition scores](results/case11-partial-anchor-scores.csv).

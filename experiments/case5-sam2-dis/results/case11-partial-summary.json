@@ -1,0 +1,12 @@
+{
+  "complete": false,
+  "case": "11",
+  "intervals_completed": 322,
+  "intervals_expected": 772,
+  "eligible": 190,
+  "dis_mean_iou": 0.5857609930709021,
+  "sam_mean_iou": 0.7021372802896935,
+  "sam_higher": 152,
+  "dis_higher": 37,
+  "equal": 1
+}

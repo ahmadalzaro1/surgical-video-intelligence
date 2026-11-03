@@ -47,3 +47,5 @@ A completed phantom-video experiment compares annotation-seeded SAM 2 with an op
 ![Side-by-side preview of optical-flow and SAM 2 tracking on phantom video](experiments/case5-sam2-dis/assets/case5-tracking-comparison.gif)
 
 [See the experiment, methodology, results and attribution](experiments/case5-sam2-dis/)
+
+**Second recording — preliminary:** In the first 322 of 772 one-second intervals, 190 eligible paired transitions have mean IoU 0.702 (SAM 2) and 0.586 (DIS). This is an incomplete prefix, not a full-video result; the aggregate may change. [See the partial results](experiments/case5-sam2-dis/results/case11-partial-summary.json).
