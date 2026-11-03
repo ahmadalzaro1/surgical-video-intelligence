@@ -39,3 +39,11 @@ Instrument identities shown in the tracking display come from dataset labels, no
 The visual demo uses the public [Endoscopic Pituitary Surgery on a High-fidelity Bench-top Phantom dataset](https://doi.org/10.5522/04/26511049.v1) by Adrito Das, Danyal Khan, Nicola Newall, John Hanrahan, Danail Stoyanov, Hani Marcus and Sophia Bano, made available under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). The screenshot is an adapted visualization of that dataset and is shared under the same license. See also the dataset's [companion paper](https://doi.org/10.1049/htl2.12101).
 
 The [historical research snapshot](research_snapshot/) includes the tracking and retrieval scripts and recorded evaluation. It is a source snapshot, not a packaged standalone release; the full replay, dataset and model weights are not included.
+
+## New: SAM 2 and optical-flow comparison
+
+A completed phantom-video experiment compares annotation-seeded SAM 2 with an optical-flow baseline. On 329 eligible one-second transitions, mean mask IoU was 0.784 for SAM 2 and 0.563 for the baseline; the evaluation is exploratory and does not establish clinical performance.
+
+![Side-by-side preview of optical-flow and SAM 2 tracking on phantom video](experiments/case5-sam2-dis/assets/case5-tracking-comparison.gif)
+
+[See the experiment, methodology, results and attribution](experiments/case5-sam2-dis/)

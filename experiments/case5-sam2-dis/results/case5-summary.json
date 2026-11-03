@@ -1,0 +1,22 @@
+{
+  "complete": true,
+  "intervals_completed": 485,
+  "intervals_expected": 485,
+  "display_frames": 12120,
+  "eligible": 329,
+  "dis": {
+    "mean_iou": 0.5628400799322825,
+    "median_iou": 0.6309346756663997,
+    "iou_at_least_05": 211
+  },
+  "sam": {
+    "mean_iou": 0.7840515618398752,
+    "median_iou": 0.863925716747236,
+    "iou_at_least_05": 295
+  },
+  "paired": {
+    "sam_higher": 296,
+    "dis_higher": 33,
+    "equal": 0
+  }
+}
