@@ -48,4 +48,4 @@ A completed phantom-video experiment compares annotation-seeded SAM 2 with an op
 
 [See the experiment, methodology, results and attribution](experiments/case5-sam2-dis/)
 
-**Second recording — preliminary:** In the first 322 of 772 one-second intervals, 190 eligible paired transitions have mean IoU 0.702 (SAM 2) and 0.586 (DIS). This is an incomplete prefix, not a full-video result; the aggregate may change. [See the partial results](experiments/case5-sam2-dis/results/case11-partial-summary.json).
+**Second recording — complete:** Case 11 contains 772 one-second intervals and 383 eligible paired transitions. Mean IoU was 0.683 for SAM 2 and 0.554 for DIS. As with case 5, masks and labels were supplied once per second; this does not measure autonomous detection or long-term tracking. [See the final results](experiments/case5-sam2-dis/results/case11-summary.json).
